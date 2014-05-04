@@ -1,0 +1,35 @@
+{
+  "name": "node-calibre-add",
+  "version": "0.0.1",
+  "description": "add entered isbn to calibre database",
+  "main": "lib/calibre-add",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "grunt": "~0.4",
+      "grunt-contrib-jshint": "~0.10",
+      "grunt-contrib-uglify": "~0.4"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solygen/node-calibre-add.git"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "camt": "lib/calibre-add.js"
+  },
+  "keywords": [
+    "calibre",
+    "isbn"
+  ],
+  "author": "Frank Paczynski <frank@solygen.de> (https://github.com/solygen)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solygen/node-calibre-add/issues"
+  },
+  "homepage": "https://github.com/solygen"
+}
