@@ -3,12 +3,12 @@ node-calibre-add
 
 >add entered isbn to calibre database
 
-###Preparation
+### Preparation
 + install calibre and create an empty database
 + run calibre
 + be sure you have enabled [http://manual.calibre-ebook.com/cli/cli-index.html](command line interface)
 
-###Usage
+### Usage
 
 ```
 node ../lib/calibre-add.js
@@ -18,7 +18,7 @@ node ../lib/calibre-add.js
 + repeat as long as you like
 + exit by typing 'quit' _[ENTER]_
 
-###Details
+### Details
 every time you entering an isbn the calibre cli is used to add an empty book with this command
 
 ```
