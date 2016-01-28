@@ -1,6 +1,6 @@
 {
   "name": "calibre-add",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "add entered isbn to calibre database",
   "main": "bin/calibre-add",
   "scripts": {
